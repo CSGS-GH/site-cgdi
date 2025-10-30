@@ -1,0 +1,7 @@
+git init
+git add .
+git commit -m "Primeiro deploy do site CGDI"
+# substitua USERNAME e REPO pelo seu usuário e nome do repositório
+git remote add origin https://github.com/CSGS-GH/site-cgdi.git
+git branch -M main
+git push -u origin main
